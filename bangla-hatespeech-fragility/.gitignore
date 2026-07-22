@@ -1,0 +1,44 @@
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Data
+data/raw/
+data/interim/
+*.csv
+!configs/*.csv
+
+# Results
+results/logs/
+results/models/
+*.pkl
+*.pth
+*.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Large files
+*.tar.gz
+*.zip
+
+# WandB
+wandb/

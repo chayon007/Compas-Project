@@ -1,0 +1,8 @@
+{
+  "baseline_accuracy": 0.8190997958964443,
+  "baseline_f1": 0.5416439847577572,
+  "baseline_fpr_gap": 0.0423850917540646,
+  "baseline_fnr_gap": 0.02392817956357718,
+  "per_group_metrics": "{'mixed': {'f1': 0.5726495726495727, 'precision': 0.8322981366459627, 'recall': 0.4364820846905538, 'fpr': 0.08157099697885196, 'fnr': 0.5635179153094463, 'accuracy': 0.6865203761755486}, 'standard': {'f1': 0.537117903930131, 'precision': 0.7694369973190348, 'recall': 0.41255390512697654, 'fpr': 0.03918590522478736, 'fnr': 0.5874460948730235, 'accuracy': 0.828854803367547}}",
+  "note": "Fairness-aware post-processing demo with threshold optimization"
+}

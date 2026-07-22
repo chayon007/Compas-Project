@@ -1,0 +1,43 @@
+# Default experiment configuration
+
+# Random seed for reproducibility
+random_seed: 42
+
+# Model hyperparameters
+model:
+  tfidf:
+    max_features: 30000
+    ngram_range: [1, 2]
+  logistic_regression:
+    max_iter: 2000
+    class_weight: balanced
+  transformer:
+    model_name: "google-bert/bert-base-multilingual-uncased"
+    num_labels: 2
+    hidden_dropout_prob: 0.1
+
+# Training parameters
+training:
+  num_epochs: 3
+  batch_size: 16
+  learning_rate: 2.0e-5
+  warmup_steps: 100
+  weight_decay: 0.01
+  max_length: 512
+
+# Data split
+data:
+  test_size: 0.2
+  stratify: true
+
+# Attack parameters
+attacks:
+  perturbation_ratios:
+    l1: 0.2
+    l3: 0.5
+  random_seed: 42
+
+# Continual learning parameters
+continual_learning:
+  ewc_lambda: 0.4
+  replay_buffer_size: 50

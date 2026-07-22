@@ -1,0 +1,8 @@
+"""Dataset metadata and download information."""
+
+dataset	year	script	labels	dialect_info	transliteration	source	url	notes
+karim_2020	2020	Bangla	binary	no	no	UCI ML	https://archive.ics.uci.edu/ml/datasets/	First Bangla hate speech dataset; oldest temporal phase
+bidwesh	2025	Bangla	binary	yes	no	Mendeley	https://data.mendeley.com/	Regional dialect variations; core for Axis B
+boishommo	2025	Bangla	multi-label	partial	no	Mendeley	https://data.mendeley.com/	Newest temporal phase; multi-label hate types
+banth	2024	Romanized	multi-label	no	yes	HuggingFace/ACL	https://huggingface.co/	Transliterated Bangla; core for Axis C
+blp-2025	2025	Bangla	multi-label	no	no	ACL	https://www.aclweb.org/	Shared task benchmark; evaluation set
